@@ -32,3 +32,10 @@ bluemix challenge
 
   - enqueueされたURLの画像を取得
   - 画像を物体認識にかける
+  - 結果を保存
+  - 良さそうなやつは通知タスクをenqueueする
+
+- worker-3: 通知タスク
+
+  - 通知に必要なconnectionを取得
+  - 通知を実施
